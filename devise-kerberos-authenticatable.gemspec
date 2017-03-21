@@ -3,7 +3,8 @@ require 'rake'
 Gem::Specification.new do |s|
   s.name            = 'devise-kerberos-authenticatable'
   s.version         = '0.1.0'
-  s.date            = '2013-04-21'
+  s.date            = %q{2013-04-21}
+  s.licenses        = ['MIT']
   s.summary         = 'Devise authentication strategy for Kerberos'
   s.description     = 'Devise extension providing the ability to authenticate
                       against Kerberos as defined in your local krb5.conf file
@@ -14,5 +15,5 @@ Gem::Specification.new do |s|
   s.homepage        = 'http://www.github.com/atomaka/devise-kerberos-authenticatable'
 
   s.add_dependency  'timfel-krb5-auth', '~> 0.8'
-  s.add_dependency  'devise', '~> 3.1.1'
+  s.add_dependency  'devise', '~> 4.2'
 end
