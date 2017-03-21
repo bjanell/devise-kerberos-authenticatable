@@ -2,8 +2,8 @@ require 'rake'
 
 Gem::Specification.new do |s|
   s.name            = 'devise-kerberos-authenticatable'
-  s.version         = '0.1.0'
-  s.date            = %q{2013-04-21}
+  s.version         = '0.2.0'
+  s.date            = %q{2017-03-21}
   s.licenses        = ['MIT']
   s.summary         = 'Devise authentication strategy for Kerberos'
   s.description     = 'Devise extension providing the ability to authenticate
